@@ -9,10 +9,11 @@ const Dashboard = () => {
                     Dashboard
                 </h2>
             }>
-
             <Head>
                 <title>Laravel - Dashboard</title>
             </Head>
+
+            {/* Create aside navigation for different pages on the dashboard */}
 
             <div className="py-12">
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">

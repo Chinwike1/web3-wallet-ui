@@ -1,8 +1,13 @@
 import Navigation from '@/components/Layouts/Navigation'
-import { useAuth } from '@/hooks/auth'
+// import { useAuth } from '@/hooks/auth'
 
 const AppLayout = ({ header, children }) => {
-    const { user } = useAuth({ middleware: 'auth' })
+    // const { user } = useAuth({ middleware: 'auth' })
+    // Dummy data
+    const user = {
+        name: 'John Doe',
+        email: 'john@doe.com',
+    }
 
     return (
         <div className="min-h-screen bg-gray-100">
