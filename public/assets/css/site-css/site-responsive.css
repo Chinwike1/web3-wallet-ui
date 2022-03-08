@@ -1,0 +1,282 @@
+@media screen and (max-width: 479px){
+    .maintainence-area .maintainence-inner-box .maintainence-box-img img,
+    .error-area .error-inner-box .error-box-img img {
+	    max-width: 300px !important;
+	}
+	.maintainence-area .maintainence-inner-box .maintainence-box-content h1,
+	.error-area .error-inner-box .error-box-content h1 {
+	    font-size: 34px;
+	}
+	.header-logo img {
+	    max-width: 100px;
+	}
+	.contact-box-from .theme-input-box .theme-btn {
+	    padding: 12px 15px;
+	}
+	.contact-box .contact-box-column {
+	    padding: 20px 20px;
+	}
+	.user-login-box {
+	    padding: 0px 30px;
+	    width: calc(100% - 30px);
+	}
+	.best-wallet-content .mobile-app-box > a > img {
+	    max-width: 115px;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 480px){
+    .our-services-images img,
+    .our-mission-images img {
+	    max-width: 420px;
+	}
+}
+@media screen and (max-width: 575px){
+	.slider-box-area .slider-header h1 {
+	    font-size: 32px;
+	}
+	.section-heading h2,
+	.section-heading.center-heading h2,
+	.bradcrumb-area .bradcrumb-box h1 {
+		font-size: 26px;
+	}
+	.our-mission-images img {
+	    max-width: 250px;
+	}
+	.our-services-images img,
+	.best-wallet-images img {
+	    max-width: 260px;
+	}
+}
+@media screen and (max-width: 767px){
+	.header-main .row > div {
+	    position: static;
+	}
+	.header-main .header-navbar-menu {
+	    float: none;
+	}
+	.header-main .header-navbar-menu .header-pricing-btn {
+	    float: none;
+	    position: absolute;
+	    top: 14px;
+	    right: 68px;
+	    margin: 0px;
+	}
+	.header-main .header-navbar-menu .header-pricing-btn .theme-btn {
+	    padding: 6px 20px;
+	}
+	.header-main.fixed-header{
+		padding: 15px 0px;
+	}
+	.header-navbar-menu .navbar {
+	    position: static;
+	}
+	.header-navbar-menu .navbar .navbar-toggler {
+	    height: 40px;
+	    width: 40px;
+	    background-color: #406fbf;
+    	color: #fff;
+	    border-radius: 0px;
+	    padding: 0px;
+	    position: absolute;
+	    top: 14px;
+	    right: 15px;
+	    outline: 0;
+	}
+	.header-navbar-menu .navbar .navbar-collapse {
+	    position: absolute;
+	    top: 67px;
+	    left: 0px;
+	    right: 0px;
+	    background-color: #f0f0f0;
+	    z-index: 99;
+	}
+	.header-navbar-menu .navbar-nav .nav-item .nav-link{
+		color: #222;
+	}
+	.header-navbar-menu .navbar-nav .nav-item {
+	    margin: 0px;
+	    padding: 0px 15px;
+	}
+	.nav-item .nav-dropdown-box {
+	    width: 100%;
+	    position: static;
+	    padding: 0px;
+	    box-shadow: none;
+	    transform: none;
+	    opacity: 1;
+	    visibility: visible;
+	    display: none;
+	}
+	.nav-item.mega-menu-dropdown.active .nav-dropdown-box {
+	    display: block;
+	}
+	.nav-item .nav-dropdown-box::before{
+		content: none;
+	}
+	.slider-area {
+	    padding: 160px 0px;
+	}
+	.slider-images {
+	    margin: -80px 0px 0px;
+	}
+	.our-mission-area .row, 
+	.our-services-area .row, 
+	.best-wallet-area .row {
+	    display: block;
+	    width: 100%;
+	    margin: 0px;
+	}
+	.our-mission-area .row > div, .our-services-area .row > div, .best-wallet-area .row > div{
+		display: block;
+		width: 100%;
+	}
+	.our-services-area .our-services-images {
+	    position: static;
+	    transform: none;
+	    text-align: center;
+	    margin-top: 30px;
+	}
+	.maintainence-area .user-login-logo,
+	.error-area .user-login-logo {
+	    margin-bottom: 60px;
+	}
+    .maintainence-area .maintainence-inner-box,
+    .error-area .error-inner-box {
+	    display: block;
+	    width: 100%;
+	    height: auto;
+	}
+	.maintainence-area .maintainence-inner-box > div,
+	.error-area .error-inner-box > div {
+	    display: block;
+	    width: 100%;
+	}
+	.maintainence-area .maintainence-inner-box .maintainence-box-img,
+	.error-area .error-inner-box .error-box-img {
+	    margin-top: 30px;
+	    text-align: center;
+	}
+	.maintainence-area .maintainence-inner-box .maintainence-box-img img,
+	.error-area .error-inner-box .error-box-img img {
+	    max-width: 460px;
+	}
+	.best-wallet-images,
+	.our-mission-images {
+	    margin-bottom: 30px;
+	}
+	.our-services-area,
+	.trending-hot-area {
+	    padding-top: 0px;
+	}
+	.our-mission-area,
+	.our-services-area,
+	.best-wallet-area,
+	.footer-main {
+		text-align: center;
+	}
+	.footer-copyright .footer-bottom-right ul {
+	    float: none;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    align-items: center;
+	    justify-content: center;
+	    margin-top: 8px;
+	}
+	.dark-mode .counter-box .counter-title{
+		border: 0px;
+	}
+}
+@media screen and (max-width: 950px) and (min-width: 768px){
+    
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .maintainence-area .user-login-logo,
+    .error-area .user-login-logo {
+	    margin-bottom: 60px;
+	}
+    .maintainence-area .maintainence-inner-box,
+    .error-area .error-inner-box {
+	    display: block;
+	    width: 100%;
+	    height: auto;
+	}
+	.maintainence-area .maintainence-inner-box > div,
+	.error-area .error-inner-box > div {
+	    display: block;
+	    width: 100%;
+	}
+	.maintainence-area .maintainence-inner-box .maintainence-box-img,
+	.error-area .error-inner-box .error-box-img {
+	    margin-top: 30px;
+	    text-align: center;
+	}
+	.maintainence-area .maintainence-inner-box .maintainence-box-img img,
+	.error-area .error-inner-box .error-box-img img {
+	    max-width: 460px;
+	}
+	.header-navbar-menu .navbar .navbar-collapse {
+	    display: block;
+	}
+	.header-navbar-menu .navbar .navbar-toggler {
+	    display: none;
+	}
+	.header-navbar-menu .navbar-nav .nav-item {
+	    margin-right: 20px;
+	}
+	.header-main .header-navbar-menu .header-pricing-btn {
+	    position: absolute;
+	    top: 0px;
+	    right: 15px;
+	    float: none;
+	    margin: 0px;
+	}
+	.header-navbar-menu .navbar-nav .nav-item .nav-link {
+	    font-size: 14px;
+	}
+	.header-navbar-menu .navbar {
+	    padding-right: 135px;
+	    padding-top: 2px;
+	}
+	.header-navbar-menu .navbar-nav {
+	    display: block;
+	}
+	.header-navbar-menu .navbar-nav .nav-item {
+	    float: left;
+	}
+	.slider-area {
+	    padding: 200px 0px 300px;
+	}
+	.slider-area::before{
+		bottom: -1px;
+	}
+	.slider-images {
+	    margin-top: -220px;
+	}
+	.section-heading.center-heading h2,
+	.section-heading h2 {
+	    font-size: 30px;
+	}
+	.our-services-area .our-services-images {
+	    position: static;
+	    transform: none;
+	}
+	.our-mission-images img,
+	.our-services-images img {
+	    max-width: 320px;
+	}
+	.best-wallet-content .mobile-app-box > a > img {
+	    max-width: 115px;
+	}
+	.counter-box .counter-title{
+		border: 0px;
+	}
+}
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    
+}
+@media screen and (min-width: 768px){
+    
+}

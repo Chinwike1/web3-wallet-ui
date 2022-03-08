@@ -1,0 +1,211 @@
+.dark-mode .user-login-logo .login-logo{
+    background-image: url(../../images/logo.png);
+}
+.dark-mode .user-login-logo::before{
+    content: none;
+}
+.dark-mode,
+.dark-mode.login-bg,
+.dark-mode .notify-box .theme-input-box .theme-input,
+.dark-mode .pricing-plan-area.pricing-plan-one .pricing-plan-box,
+.dark-mode .login-title::before,
+.dark-mode .header-navbar-menu .navbar .navbar-collapse {
+    background-color: #333333;
+}
+.dark-mode .switched-styles {
+    background-color: #444;
+    box-shadow: 0px 0px 15px #333;
+}
+.dark-mode .header-main {
+    background-color: rgb(53 53 53 / 60%);
+}
+.dark-mode .header-main.fixed-header {
+    background-color: #222;
+    background-image: none;
+    box-shadow: 0px 0px 15px #333;
+}
+.dark-mode .slider-area {
+    background-color: #222;
+    background-image: none;
+}
+.dark-mode .nav-item .nav-dropdown-box .nav-dropdown-menu {
+    background-color: #333;
+    box-shadow: 0px 0px 15px #222;
+}
+.dark-mode .nav-item .nav-dropdown-box::before{
+    border-bottom: 8px solid #333333;
+}
+.dark-mode .nav-dropdown-box .nav-dropdown-menu li > a,
+.dark-mode .pricing-plan-area .pricing-plan-box .pricing-plan-content ul li {
+    color: #888;
+}
+.dark-mode .nav-dropdown-box .nav-dropdown-menu li > a:hover, 
+.dark-mode .nav-dropdown-box .nav-dropdown-menu li > a.active {
+    background-color: #444;
+}
+.dark-mode .page-background,
+.dark-mode .best-services-area .best-services-box,
+.dark-mode .pricing-plan-area.pricing-plan-one .pricing-plan-box .pricing-plan-content .plan-price,
+.dark-mode .cryptocurrency-pricing-content ul > li > .crypto-setup,
+.dark-mode .cryptocurrency-pricing-box .cryptocurrency-pricing-header {
+    background-color: #222;
+}
+.dark-mode .cryptocurrency-pricing-box {
+    border-color: #444;
+}
+.dark-mode .cryptocurrency-pricing-content ul > li {
+    border-color: #444;
+}
+.dark-mode .slider-area::before{
+    background-image: url(../../images/site-images/dark_banner_wave.png);
+}
+.dark-mode .header-navbar-menu .navbar-nav .nav-item .nav-link {
+    color: #ddd;
+}
+.dark-mode .switched-styles h4 {
+    color: #888;
+    border-color: #888888;
+}
+.dark-mode .switched-styles .hide-button {
+    color: #999;
+}
+.dark-mode .theme-title{
+    color: #c3c3c3;
+}
+.dark-mode .theme-description,
+.dark-mode .footer-newsletter .footer-logo .theme-description,
+.dark-mode .footer-copyright .footer-bottom-left p,
+.dark-mode .footer-copyright .footer-bottom-right ul > li > a,
+.dark-mode .theme-description > b,
+.dark-mode .user-condition-box ul li,
+.dark-mode .user-condition-box .theme-description > b, 
+.dark-mode .user-condition-box ul li > b,
+.dark-mode .slider-box-area .slider-header p,
+.dark-mode .cryptocurrency-pricing-content ul > li > strong,
+.dark-mode .login-title {
+    color: #aaaaaa;
+}
+.dark-mode .cryptocurrency-pricing-box.cryptocurrency-pricing-bg ul > li {
+    border-color: #fff;
+}
+.dark-mode .footer-copyright .footer-bottom-right ul > li{
+    border-color: #aaaaaa;
+}
+.dark-mode .trending-hot-area .trending-box {
+    background-color: #222 !important;
+}
+.dark-mode .trending-ico img {
+    filter: contrast(0.6);
+}
+.dark-mode .counter-box .counter-title {
+    border-color: #444;
+}
+.dark-mode .footer-main {
+    background-color: #111;
+    background-image: none;
+}
+.dark-mode .footer-main .footer-copyright,
+.dark-mode .maintainence-area, 
+.dark-mode .error-area,
+.dark-mode .user-login-box .login-box-inner {
+    background-color: #222;
+}
+.dark-mode .footer-newsletter .theme-input-box .theme-input {
+    background-color: #222;
+    border-color: #333;
+}
+.dark-mode .footer-newsletter .theme-input-box .theme-btn {
+    background-color: #333;
+    color: #898989 !important;
+}
+.dark-mode .footer-newsletter .theme-input-box .theme-input::placeholder {
+    color: #727272;
+}
+.dark-mode .page-up-box {
+    background-color: #444444;
+}
+.dark-mode .switched-mode > ul > li > a {
+    background-color: #555;
+    color: #aaa;
+}
+.dark-mode .pricing-plan-area .pricing-plan-box {
+    box-shadow: 0px 0px 15px #222;
+    background-color: #222;
+}
+.dark-mode .pricing-plan-area .pricing-plan-box .pricing-plan-content h2 {
+    color: #999;
+}
+.dark-mode .pricing-plan-area .pricing-plan-box.free-plan-box .pricing-plan-header {
+    background-color: #111;
+}
+.dark-mode .pricing-plan-area .pricing-plan-box.free-plan-box .pricing-plan-header::before{
+    border-top: 10px solid #111111;
+}
+.dark-mode .pricing-plan-area .pricing-plan-box.free-plan-box .pricing-plan-header .theme-title {
+    color: #aaa !important;
+}
+.dark-mode .notify-box .theme-input-box .theme-btn {
+    background-color: #444;
+    color: #999 !important;
+}
+.dark-mode .contact-box .contact-box-column {
+    background-color: #222;
+    box-shadow: 0px 0px 15px #333;
+}
+.dark-mode .theme-input-box .theme-input {
+    background-color: #333;
+    border-color: #333;
+    box-shadow: 0px 0px 15px #222;
+    color: #888;
+}
+.dark-mode .bradcrumb-area .bradcrumb-box h1,
+.dark-mode .slider-box-area .slider-header h1,
+.dark-mode .section-heading h2{
+    color: #cccccc;
+}
+.dark-mode .shape-img-one img, 
+.dark-mode .shape-img-two img {
+    filter: brightness(0.3);
+}
+
+.dark-mode .trending-ico .theme-icons{
+    background-image: url(../../images/icon/dark-create-wallet.svg);
+}
+.dark-mode .trending-ico .theme-icons.get-bitcoin-icon {
+    background-image: url(../../images/icon/dark-get-bitcoins.svg);
+}
+.dark-mode .trending-ico .theme-icons.use-wallet-icon {
+    background-image: url(../../images/icon/dark-get-wallet.svg);
+}
+.dark-mode .trending-ico .theme-icons.digital-money {
+    background-image: url(../../images/icon/dark-digital-money.svg);
+}
+.dark-mode .trending-ico .theme-icons.bitcoin-wallet {
+    background-image: url(../../images/icon/dark-bitcoin-wallet.svg);
+}
+.dark-mode .trending-ico .theme-icons.crypto-currency {
+    background-image: url(../../images/icon/dark-crypto-currency.svg);
+}
+.dark-mode .trending-ico .theme-icons.secure-transactions {
+    background-image: url(../../images/icon/dark-secure-transactions.svg);
+}
+.dark-mode .trending-ico .theme-icons.bitcoin-mining {
+    background-image: url(../../images/icon/dark-bitcoin-mining.svg);
+}
+.dark-mode .trending-ico .theme-icons.mining-technology {
+    background-image: url(../../images/icon/dark-mining-technology.svg);
+}
+@media screen and (max-width: 767px){
+    .dark-mode .nav-item .nav-dropdown-box .nav-dropdown-menu {
+        background-color: #444;
+    }
+    .dark-mode .nav-dropdown-box .nav-dropdown-menu li > a:hover, 
+    .dark-mode .nav-dropdown-box .nav-dropdown-menu li > a.active {
+        background-color: #333;
+    }
+}
+@media screen and (min-width: 768px){
+    .dark-mode .header-navbar-menu .navbar .navbar-collapse{
+        background-color: transparent !important;
+    }
+}

@@ -1,0 +1,114 @@
+@media screen and (max-width: 767px){
+    .theme-header-blue .header-box,
+    .theme-header-blue .color-switcher .toggle-button{
+        background-color: #4099ff; 
+        background-image: -webkit-linear-gradient(90deg,#4099ff,#73b4ff);
+        background: linear-gradient(90deg,#4099ff,#73b4ff);
+    }
+}
+.theme-header-blue .wallet-top-header,
+.theme-header-blue .transfer-coin-btn a.active, 
+.theme-header-blue .transfer-coin-btn a:hover,
+.theme-header-blue .theme-btn,
+.theme-header-blue .edit-images .edit-label,
+.theme-header-blue .wallet-transaction-box .wallet-transaction-ico,
+.theme-header-blue .pagination-box > ul > li.current,
+.theme-header-blue .notification-dropdown .notification-footer a,
+.theme-header-blue .theme-popup .modal-content .modal-body .close {
+    background-color: #4099ff; 
+    background-image: -webkit-linear-gradient(90deg,#4099ff,#73b4ff);
+    background: linear-gradient(90deg,#4099ff,#73b4ff);
+}
+.theme-header-blue .theme-btn{
+    border-color: #4099ff;
+}
+.theme-header-blue .header-logo {
+    background-color: #62abff;
+}
+.theme-header-blue .header-nav-menu ul li.active > a, 
+.theme-header-blue .header-nav-menu ul li a:hover,
+.theme-header-blue .wallet-balance-box .wallet-balance-amount h3,
+.theme-header-blue .wallet-transaction-balance h3,
+.theme-header-blue .wallet-top-header-box.user-top-detail ul li a,
+.theme-header-blue .wallet-language-box .dropdown-menu li > a,
+.theme-header-blue .wallet-transaction-balance h3, 
+.theme-header-blue .wallet-transaction-box .wallet-trx-id .trx-id > span > span,
+.theme-header-blue .pagination-box > ul > li > a:hover,
+.theme-header-blue .transfer-coin-btn a,
+.theme-header-blue .theme-popup .modal-content .wallet-balance-box span > span{
+    color: #4099ff;
+}
+.theme-header-blue .wallet-balance-area .wallet-balance-box h3{
+    color: #222;
+}
+.theme-header-blue .header-nav-menu ul li.active{
+    border-left-color: #4099ff;
+}
+.theme-header-blue .apexcharts-series path {
+    fill: #4099ff;
+}
+.theme-header-blue .apexcharts-series path{
+    stroke: #3082e1 !important;
+}
+.theme-header-blue .remove-popuo-btn .remove-btn{
+    background-color: #4099ff; 
+    background-image: -webkit-linear-gradient(90deg,#4099ff,#73b4ff);
+    background: linear-gradient(90deg,#4099ff,#73b4ff);
+    border: 1px solid #4099ff;
+}
+.theme-header-blue .highcharts-background {
+    fill: rgb(106 175 255 / 8%);
+}
+.theme-header-blue .highcharts-series > path:first-child {
+    stroke: #73b4ff;
+}
+.theme-header-blue .highcharts-title {
+    color: #73b4ff !important;
+    fill: #73b4ff !important;
+}
+.theme-header-blue .dashboard-chart-range > a.active, 
+.theme-header-blue .dashboard-chart-range > a:hover {
+    background-color: #4099ff; 
+    background-image: -webkit-linear-gradient(90deg,#4099ff,#73b4ff);
+    background: linear-gradient(90deg,#4099ff,#73b4ff);
+    color: #fff;
+}
+.theme-header-blue .wallet-chart #loading {
+    color: #73b4ff;
+}
+
+.wallet-transaction-box .wallet-transaction-ico.wallet-Withdrawal {
+    background: #87d682;
+    background: -webkit-linear-gradient(to right, #87d682, #73c06e);
+    background: linear-gradient(to right, #87d682, #73c06e);
+}
+.wallet-transaction-box .wallet-transaction-ico.wallet-sync {
+    background: #7ad9e3;
+    background: -webkit-linear-gradient(to right, #7ad9e3, #5ad2df);
+    background: linear-gradient(to right, #7ad9e3, #5ad2df);
+}
+
+/* dark mode css */
+.dark-mode.theme-header-blue .header-nav-menu ul li.active{
+    border-color: #4099ff !important;
+}
+.dark-mode.theme-header-blue .header-nav-menu ul li.active > a, 
+.dark-mode.theme-header-blue .header-nav-menu ul li a:hover {
+    color: #4099ff !important;
+}
+.dark-mode.theme-header-blue .wallet-top-header-left .wallet-top-header-box h3,
+.dark-mode.theme-header-blue .wallet-top-header-box .header-wallet-ico {
+    color: #4099ff !important;   
+}
+.dark-mode.theme-header-blue .header-nav-menu ul li.active {
+    border-color: #4099ff;   
+}
+.dark-mode.theme-header-blue .pagination-box > ul > li > a:hover,
+.dark-mode.theme-header-blue .wallet-transaction-balance h3, 
+.dark-mode.theme-header-blue .wallet-balance-box .wallet-balance-amount h3 {
+    color: #4099ff !important;
+}
+.dark-mode.theme-header-blue .wallet-top-header-right .notification-box-area .notification-box .notification-active {
+    background: #4099ff;
+}
+/* dark mode css */

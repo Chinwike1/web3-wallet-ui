@@ -1,0 +1,84 @@
+.theme-yellow .header-navbar-menu .navbar-nav .nav-item .nav-link:hover, 
+.theme-yellow .header-navbar-menu .navbar-nav .nav-item .nav-link.active,
+.theme-yellow .page-up-box {
+	color: #f5a623 !important;
+}
+.theme-yellow .section-heading h5,
+.theme-yellow .best-wallet-area .best-wallet-content h4,
+.theme-yellow .counter-box .counter-title h2,
+.theme-yellow .notify-box .theme-input-box label,
+.theme-yellow .maintainence-area .maintainence-inner-box .maintainence-box-content h1, 
+.theme-yellow .error-area .error-inner-box .error-box-content h1,
+.theme-yellow .faq-box-main .faq-box .theme-title > i,
+.theme-yellow .theme-input-box label,
+.theme-yellow .user-login-box .login-box-des > a {
+	color: #f5a623;
+}
+.theme-yellow .theme-btn,
+.theme-yellow .switch-button,
+.theme-yellow .counter-box .counter-title::before,
+.theme-yellow .login-title::before,
+.theme-yellow .header-navbar-menu .navbar .navbar-toggler {
+	background-color: #f5a623;
+}
+.theme-yellow .switched-mode > ul > li > a.active{
+	background-color: #f5a623 !important;
+}
+/* light mode icon */
+.theme-yellow .trending-ico .theme-icons{
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-create-wallet.svg);
+}
+.theme-yellow .trending-ico .theme-icons.get-bitcoin-icon {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-get-bitcoins.svg);
+}
+.theme-yellow .trending-ico .theme-icons.use-wallet-icon {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-get-wallet.svg);
+}
+.theme-yellow .trending-ico .theme-icons.digital-money {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-digital-money.svg);
+}
+.theme-yellow .trending-ico .theme-icons.bitcoin-wallet {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-bitcoin-wallet.svg);
+}
+.theme-yellow .trending-ico .theme-icons.crypto-currency {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-crypto-currency.svg);
+}
+.theme-yellow .trending-ico .theme-icons.secure-transactions {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-secure-transactions.svg);
+}
+.theme-yellow .trending-ico .theme-icons.bitcoin-mining {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-bitcoin-mining.svg);
+}
+.theme-yellow .trending-ico .theme-icons.mining-technology {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-mining-technology.svg);
+}
+/* light mode icon */
+/* dark mode icon */
+.theme-yellow.dark-mode .trending-ico .theme-icons{
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-dark-create-wallet.svg);
+}
+.theme-yellow.dark-mode .trending-ico .theme-icons.get-bitcoin-icon {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-dark-get-bitcoins.svg);
+}
+.theme-yellow.dark-mode .trending-ico .theme-icons.use-wallet-icon {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-dark-get-wallet.svg);
+}
+.theme-yellow.dark-mode .trending-ico .theme-icons.digital-money {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-dark-digital-money.svg);
+}
+.theme-yellow.dark-mode .trending-ico .theme-icons.bitcoin-wallet {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-dark-bitcoin-wallet.svg);
+}
+.theme-yellow.dark-mode .trending-ico .theme-icons.crypto-currency {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-dark-crypto-currency.svg);
+}
+.theme-yellow.dark-mode .trending-ico .theme-icons.secure-transactions {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-dark-secure-transactions.svg);
+}
+.theme-yellow.dark-mode .trending-ico .theme-icons.bitcoin-mining {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-dark-bitcoin-mining.svg);
+}
+.theme-yellow.dark-mode .trending-ico .theme-icons.mining-technology {
+    background-image: url(../../../images/icon/theme-yellow/theme-yellow-dark-mining-technology.svg);
+}
+/* dark mode icon */

@@ -1,0 +1,116 @@
+@media screen and (max-width: 767px){
+    .theme-ash .header-box,
+    .theme-ash .color-switcher .toggle-button{
+        background: #7e89a3;
+        background: -webkit-linear-gradient(to right, #3f4c6b, #7e89a3);
+        background: linear-gradient(to right, #3f4c6b, #7e89a3);
+    }
+}
+.theme-ash .wallet-top-header,
+.theme-ash .transfer-coin-btn a.active, 
+.theme-ash .transfer-coin-btn a:hover,
+.theme-ash .theme-btn,
+.theme-ash .edit-images .edit-label,
+.theme-ash .notification-dropdown .notification-footer a,
+.theme-ash .wallet-transaction-box .wallet-transaction-ico,
+.theme-ash .pagination-box > ul > li.current,
+.theme-ash .theme-popup .modal-content .modal-body .close {
+    background: #7e89a3;
+    background: -webkit-linear-gradient(to right, #3f4c6b, #7e89a3);
+    background: linear-gradient(to right, #3f4c6b, #7e89a3);
+}
+.theme-ash .theme-btn{
+    border-color: #7e89a3;
+}
+.theme-ash .header-logo {
+    background-color: #5d6a86;
+}
+.theme-ash .header-nav-menu ul li.active > a, 
+.theme-ash .header-nav-menu ul li a:hover,
+.theme-ash .wallet-balance-box .wallet-balance-amount h3,
+.theme-ash .wallet-transaction-balance h3,
+.theme-ash .wallet-top-header-box.user-top-detail ul li a,
+.theme-ash .wallet-language-box .dropdown-menu li > a,
+.theme-ash .wallet-transaction-balance h3, 
+.theme-ash .wallet-transaction-box .wallet-trx-id .trx-id > span > span,
+.theme-ash .pagination-box > ul > li > a:hover,
+.theme-ash .transfer-coin-btn a,
+.theme-ash .theme-popup .modal-content .wallet-balance-box span > span{
+    color: #7e89a3;
+}
+.theme-ash .wallet-balance-area .wallet-balance-box h3{
+    color: #222;
+}
+.theme-ash .header-nav-menu ul li.active{
+    border-left-color: #7e89a3;
+}
+.theme-ash .apexcharts-series path {
+    fill: #7e89a3;
+    fill: -webkit-linear-gradient(to right, #3f4c6b, #7e89a3);
+    fill: linear-gradient(to right, #3f4c6b, #7e89a3);
+}
+.theme-ash .apexcharts-series path{
+    stroke: #3f4c6b !important;
+}
+.theme-ash .remove-popuo-btn .remove-btn{
+    background: #7e89a3;
+    background: -webkit-linear-gradient(to right, #3f4c6b, #7e89a3);
+    background: linear-gradient(to right, #3f4c6b, #7e89a3);
+    border: 1px solid #7e89a3;
+}
+.theme-ash .highcharts-background {
+    fill: rgb(88 101 129 / 8%);
+}
+.theme-ash .highcharts-series > path:first-child {
+    stroke: #7e89a3;
+}
+.theme-ash .highcharts-title {
+    color: #7e89a3 !important;
+    fill: #7e89a3 !important;
+}
+.theme-ash .dashboard-chart-range > a.active, 
+.theme-ash .dashboard-chart-range > a:hover {
+    background: #7e89a3;
+    background: -webkit-linear-gradient(to right, #3f4c6b, #7e89a3);
+    background: linear-gradient(to right, #3f4c6b, #7e89a3);
+    color: #fff;
+}
+.theme-ash .wallet-chart #loading {
+    color: #7e89a3;
+}
+
+.wallet-transaction-box .wallet-transaction-ico.wallet-Withdrawal {
+    background: #87d682;
+    background: -webkit-linear-gradient(to right, #87d682, #73c06e);
+    background: linear-gradient(to right, #87d682, #73c06e);
+}
+.wallet-transaction-box .wallet-transaction-ico.wallet-sync {
+    background: #7ad9e3;
+    background: -webkit-linear-gradient(to right, #7ad9e3, #5ad2df);
+    background: linear-gradient(to right, #7ad9e3, #5ad2df);
+}
+
+/* dark mode css */
+.dark-mode.theme-ash .header-nav-menu ul li.active{
+    border-color: #7e89a3 !important;
+}
+.dark-mode.theme-ash .header-nav-menu ul li.active > a, 
+.dark-mode.theme-ash .header-nav-menu ul li a:hover {
+    color: #7e89a3 !important;
+}
+.dark-mode.theme-ash .wallet-top-header-left .wallet-top-header-box h3,
+.dark-mode.theme-ash .wallet-top-header-box .header-wallet-ico {
+    color: #7e89a3 !important;   
+}
+.dark-mode.theme-ash .header-nav-menu ul li.active {
+    border-color: #7e89a3;   
+}
+.dark-mode.theme-ash .pagination-box > ul > li > a:hover,
+.dark-mode.theme-ash .wallet-transaction-balance h3, 
+.dark-mode.theme-ash .wallet-balance-box .wallet-balance-amount h3 {
+    color: #7e89a3 !important;
+}
+.dark-mode.theme-ash .wallet-top-header-right .notification-box-area .notification-box .notification-active {
+    background: #7e89a3;
+}
+/* dark mode css */

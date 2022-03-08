@@ -1,0 +1,84 @@
+.light-sea-green .header-navbar-menu .navbar-nav .nav-item .nav-link:hover, 
+.light-sea-green .header-navbar-menu .navbar-nav .nav-item .nav-link.active,
+.light-sea-green .page-up-box {
+	color: #44a692 !important;
+}
+.light-sea-green .section-heading h5,
+.light-sea-green .best-wallet-area .best-wallet-content h4,
+.light-sea-green .counter-box .counter-title h2,
+.light-sea-green .notify-box .theme-input-box label,
+.light-sea-green .maintainence-area .maintainence-inner-box .maintainence-box-content h1, 
+.light-sea-green .error-area .error-inner-box .error-box-content h1,
+.light-sea-green .faq-box-main .faq-box .theme-title > i,
+.light-sea-green .theme-input-box label,
+.light-sea-green .user-login-box .login-box-des > a {
+	color: #44a692;
+}
+.light-sea-green .theme-btn,
+.light-sea-green .switch-button,
+.light-sea-green .counter-box .counter-title::before,
+.light-sea-green .login-title::before,
+.light-sea-green .header-navbar-menu .navbar .navbar-toggler {
+	background-color: #44a692;
+}
+.light-sea-green .switched-mode > ul > li > a.active{
+	background-color: #44a692 !important;	
+}
+/* light mode icon */
+.light-sea-green .trending-ico .theme-icons{
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-create-wallet.svg);
+}
+.light-sea-green .trending-ico .theme-icons.get-bitcoin-icon {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-get-bitcoins.svg);
+}
+.light-sea-green .trending-ico .theme-icons.use-wallet-icon {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-get-wallet.svg);
+}
+.light-sea-green .trending-ico .theme-icons.digital-money {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-digital-money.svg);
+}
+.light-sea-green .trending-ico .theme-icons.bitcoin-wallet {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-bitcoin-wallet.svg);
+}
+.light-sea-green .trending-ico .theme-icons.crypto-currency {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-crypto-currency.svg);
+}
+.light-sea-green .trending-ico .theme-icons.secure-transactions {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-secure-transactions.svg);
+}
+.light-sea-green .trending-ico .theme-icons.bitcoin-mining {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-bitcoin-mining.svg);
+}
+.light-sea-green .trending-ico .theme-icons.mining-technology {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-mining-technology.svg);
+}
+/* light mode icon */
+/* dark mode icon */
+.light-sea-green.dark-mode .trending-ico .theme-icons{
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-dark-create-wallet.svg);
+}
+.light-sea-green.dark-mode .trending-ico .theme-icons.get-bitcoin-icon {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-dark-get-bitcoins.svg);
+}
+.light-sea-green.dark-mode .trending-ico .theme-icons.use-wallet-icon {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-dark-get-wallet.svg);
+}
+.light-sea-green.dark-mode .trending-ico .theme-icons.digital-money {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-dark-digital-money.svg);
+}
+.light-sea-green.dark-mode .trending-ico .theme-icons.bitcoin-wallet {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-dark-bitcoin-wallet.svg);
+}
+.light-sea-green.dark-mode .trending-ico .theme-icons.crypto-currency {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-dark-crypto-currency.svg);
+}
+.light-sea-green.dark-mode .trending-ico .theme-icons.secure-transactions {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-dark-secure-transactions.svg);
+}
+.light-sea-green.dark-mode .trending-ico .theme-icons.bitcoin-mining {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-dark-bitcoin-mining.svg);
+}
+.light-sea-green.dark-mode .trending-ico .theme-icons.mining-technology {
+    background-image: url(../../../images/icon/light-sea-green/light-sea-green-dark-mining-technology.svg);
+}
+/* dark mode icon */

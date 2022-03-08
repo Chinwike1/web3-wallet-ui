@@ -1,0 +1,115 @@
+@media screen and (max-width: 767px){
+    .theme-persian-green .header-box,
+    .theme-persian-green .color-switcher .toggle-button{
+        background-color: #00B894;
+    }
+}
+.theme-persian-green .wallet-top-header,
+.theme-persian-green .transfer-coin-btn a.active, 
+.theme-persian-green .transfer-coin-btn a:hover,
+.theme-persian-green .theme-btn,
+.theme-persian-green .edit-images .edit-label,
+.theme-persian-green .notification-dropdown .notification-footer a,
+.theme-persian-green .wallet-transaction-box .wallet-transaction-ico,
+.theme-persian-green .pagination-box > ul > li.current,
+.theme-persian-green .theme-popup .modal-content .modal-body .close {
+    background-color: #00B894;
+}
+.theme-persian-green .theme-btn{
+    border-color: #00B894;
+}
+.theme-persian-green .header-logo {
+    background-color: #1e9d84;
+}
+.theme-persian-green .header-nav-menu ul li.active > a, 
+.theme-persian-green .header-nav-menu ul li a:hover,
+.theme-persian-green .wallet-balance-box .wallet-balance-amount h3,
+.theme-persian-green .wallet-transaction-balance h3,
+.theme-persian-green .wallet-top-header-box.user-top-detail ul li a,
+.theme-persian-green .wallet-language-box .dropdown-menu li > a,
+.theme-persian-green .wallet-transaction-balance h3, 
+.theme-persian-green .wallet-transaction-box .wallet-trx-id .trx-id > span > span,
+.theme-persian-green .pagination-box > ul > li > a:hover,
+.theme-persian-green .transfer-coin-btn a,
+.theme-persian-green .theme-popup .modal-content .wallet-balance-box span > span{
+    color: #00B894;
+}
+.theme-persian-green .wallet-balance-area .wallet-balance-box h3{
+    color: #222;
+}
+.theme-persian-green .header-nav-menu ul li.active{
+    border-left-color: #00B894;
+}
+.theme-persian-green .apexcharts-series path {
+    fill: #00B894 !important;
+}
+.theme-persian-green .apexcharts-series path{
+    stroke: #1e9d84 !important;
+}
+.theme-persian-green .remove-popuo-btn .remove-btn{
+    background-color: #00B894;
+    border: 1px solid #00B894;
+}
+.theme-persian-green .highcharts-background {
+    fill: rgb(0 184 148 / 8%);
+}
+.theme-persian-green .highcharts-series > path:first-child {
+    stroke: #1e9d84;
+}
+.theme-persian-green .highcharts-title {
+    color: #1e9d84 !important;
+    fill: #1e9d84 !important;
+}
+.theme-persian-green .dashboard-chart-range > a.active, 
+.theme-persian-green .dashboard-chart-range > a:hover {
+    background-color: #1e9d84;
+    color: #fff;
+}
+.theme-persian-green .wallet-chart #loading {
+    color: #1e9d84;
+}
+
+/* dark mode css */
+.dark-mode.theme-persian-green .header-nav-menu ul li.active{
+    border-color: #00B894 !important;
+}
+.dark-mode.theme-persian-green .header-nav-menu ul li.active > a, 
+.dark-mode.theme-persian-green .header-nav-menu ul li a:hover {
+    color: #00B894 !important;
+}
+.dark-mode.theme-persian-green .wallet-top-header-left .wallet-top-header-box h3,
+.dark-mode.theme-persian-green .wallet-top-header-box .header-wallet-ico {
+    color: #00B894 !important;   
+}
+.dark-mode.theme-persian-green .header-nav-menu ul li.active {
+    border-color: #00B894;   
+}
+.dark-mode.theme-persian-green .pagination-box > ul > li > a:hover,
+.dark-mode.theme-persian-green .wallet-transaction-balance h3, 
+.dark-mode.theme-persian-green .wallet-balance-box .wallet-balance-amount h3 {
+    color: #00B894 !important;
+}
+.dark-mode.theme-persian-green .theme-btn,
+.dark-mode.theme-persian-green .wallet-transaction-box .wallet-transaction-ico,
+.dark-mode.theme-persian-green .wallet-top-header-right .notification-box-area .notification-box .notification-active,
+.dark-mode.theme-persian-green .pagination-box > ul > li.current,
+.dark-mode.theme-persian-green .edit-images .edit-label,
+.dark-mode.theme-persian-green .remove-popuo-btn .remove-btn {
+    background-color: #00B894 !important;   
+}
+.dark-mode.theme-persian-green .highcharts-title {
+    color: #00B894 !important;
+    fill: #00B894 !important;
+}
+.dark-mode.theme-persian-green .dashboard-chart-range > a.active, 
+.dark-mode.theme-persian-green .dashboard-chart-range > a:hover {
+    background-color: #00B894;
+    color: #ffffff;
+}
+.dark-mode.theme-persian-green .highcharts-series > path:first-child {
+    stroke: #00B894;
+}
+.dark-mode.theme-persian-green .wallet-chart #loading{
+    color: #00B894;
+}
+/* dark mode css */

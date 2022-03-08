@@ -1,0 +1,129 @@
+@media screen and (max-width: 767px){
+    .theme-header-red .header-box,
+    .theme-header-red .color-switcher .toggle-button{
+        background-color: #ff5370; 
+        background-image: -webkit-linear-gradient(90deg,#ff5370,#f48fb1);
+        background: linear-gradient(90deg,#ff5370,#f48fb1);
+    }
+}
+.theme-header-red .wallet-top-header,
+.theme-header-red .transfer-coin-btn a.active, 
+.theme-header-red .transfer-coin-btn a:hover,
+.theme-header-red .theme-btn,
+.theme-header-red .edit-images .edit-label,
+.theme-header-red .wallet-transaction-box .wallet-transaction-ico,
+.theme-header-red .pagination-box > ul > li.current,
+.theme-header-red .notification-dropdown .notification-footer a,
+.theme-header-red .theme-popup .modal-content .modal-body .close {
+    background-color: #ff5370; 
+    background-image: -webkit-linear-gradient(90deg,#ff5370,#f48fb1);
+    background: linear-gradient(90deg,#ff5370,#f48fb1);
+}
+.theme-header-red .theme-btn{
+    border-color: #ff5370;
+}
+.theme-header-red .header-logo {
+    background-color: #f97494;
+}
+.theme-header-red .header-nav-menu ul li.active > a, 
+.theme-header-red .header-nav-menu ul li a:hover,
+.theme-header-red .wallet-balance-box .wallet-balance-amount h3,
+.theme-header-red .wallet-transaction-balance h3,
+.theme-header-red .wallet-top-header-box.user-top-detail ul li a,
+.theme-header-red .wallet-language-box .dropdown-menu li > a,
+.theme-header-red .wallet-transaction-balance h3, 
+.theme-header-red .wallet-transaction-box .wallet-trx-id .trx-id > span > span,
+.theme-header-red .pagination-box > ul > li > a:hover,
+.theme-header-red .transfer-coin-btn a,
+.theme-header-red .theme-popup .modal-content .wallet-balance-box span > span{
+    color: #ff5370;
+}
+.theme-header-red .wallet-balance-area .wallet-balance-box h3{
+    color: #222;
+}
+.theme-header-red .header-nav-menu ul li.active{
+    border-left-color: #ff5370;
+}
+.theme-header-red .apexcharts-series path {
+    fill: #ff5370;
+}
+.theme-header-red .apexcharts-series path{
+    stroke: #d83450 !important;
+}
+.theme-header-red .remove-popuo-btn .remove-btn{
+    background-color: #ff5370; 
+    background-image: -webkit-linear-gradient(90deg,#ff5370,#f48fb1);
+    background: linear-gradient(90deg,#ff5370,#f48fb1);
+    border: 1px solid #ff5370;
+}
+.theme-header-red .highcharts-background {
+    fill: rgb(246 133 166 / 8%);
+}
+.theme-header-red .highcharts-series > path:first-child {
+    stroke: #f48fb1;
+}
+.theme-header-red .highcharts-title {
+    color: #f48fb1 !important;
+    fill: #f48fb1 !important;
+}
+.theme-header-red .dashboard-chart-range > a.active, 
+.theme-header-red .dashboard-chart-range > a:hover {
+    background-color: #ff5370;
+    background-image: -webkit-linear-gradient(90deg,#ff5370,#f48fb1);
+    background: linear-gradient(90deg,#ff5370,#f48fb1);
+    color: #fff;
+}
+.theme-header-red .wallet-chart #loading {
+    color: #f48fb1;
+}
+
+.wallet-transaction-box .wallet-transaction-ico.wallet-Withdrawal {
+    background: #87d682;
+    background: -webkit-linear-gradient(to right, #87d682, #73c06e);
+    background: linear-gradient(to right, #87d682, #73c06e);
+}
+.wallet-transaction-box .wallet-transaction-ico.wallet-sync {
+    background: #7ad9e3;
+    background: -webkit-linear-gradient(to right, #7ad9e3, #5ad2df);
+    background: linear-gradient(to right, #7ad9e3, #5ad2df);
+}
+
+/* dark mode css */
+.dark-mode.theme-header-red .header-nav-menu ul li.active{
+    border-color: #ff5370 !important;
+}
+.dark-mode.theme-header-red .header-nav-menu ul li.active > a, 
+.dark-mode.theme-header-red .header-nav-menu ul li a:hover {
+    color: #ff5370 !important;
+}
+.dark-mode.theme-header-red .wallet-top-header-left .wallet-top-header-box h3,
+.dark-mode.theme-header-red .wallet-top-header-box .header-wallet-ico {
+    color: #ff5370 !important;   
+}
+.dark-mode.theme-header-red .header-nav-menu ul li.active {
+    border-color: #ff5370;   
+}
+.dark-mode.theme-header-red .pagination-box > ul > li > a:hover,
+.dark-mode.theme-header-red .wallet-transaction-balance h3, 
+.dark-mode.theme-header-red .wallet-balance-box .wallet-balance-amount h3 {
+    color: #ff5370 !important;
+}
+.dark-mode.theme-header-red .wallet-top-header-right .notification-box-area .notification-box .notification-active {
+    background: #ff5370;
+}
+.dark-mode.theme-header-red .highcharts-title {
+    color: #ff5370 !important;
+    fill: #ff5370 !important;
+}
+.dark-mode.theme-header-red .dashboard-chart-range > a.active, 
+.dark-mode.theme-header-red .dashboard-chart-range > a:hover {
+    background-color: #ff5370;
+    color: #ffffff;
+}
+.dark-mode.theme-header-red .highcharts-series > path:first-child {
+    stroke: #ff5370;
+}
+.dark-mode.theme-header-red .wallet-chart #loading{
+    color: #ff5370;
+}
+/* dark mode css */

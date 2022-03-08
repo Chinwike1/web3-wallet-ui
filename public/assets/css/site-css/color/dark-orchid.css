@@ -1,0 +1,86 @@
+.theme-dark-orchid .header-navbar-menu .navbar-nav .nav-item .nav-link:hover, 
+.theme-dark-orchid .header-navbar-menu .navbar-nav .nav-item .nav-link.active {
+	color: #8f81f4 !important;
+}
+.theme-dark-orchid .page-up-box {
+	color: #7365db !important;
+}
+.theme-dark-orchid .section-heading h5,
+.theme-dark-orchid .best-wallet-area .best-wallet-content h4,
+.theme-dark-orchid .counter-box .counter-title h2,
+.theme-dark-orchid .notify-box .theme-input-box label,
+.theme-dark-orchid .maintainence-area .maintainence-inner-box .maintainence-box-content h1, 
+.theme-dark-orchid .error-area .error-inner-box .error-box-content h1,
+.theme-dark-orchid .faq-box-main .faq-box .theme-title > i,
+.theme-dark-orchid .theme-input-box label,
+.theme-dark-orchid .user-login-box .login-box-des > a {
+	color: #7365db;
+}
+.theme-dark-orchid .theme-btn,
+.theme-dark-orchid .switch-button,
+.theme-dark-orchid .counter-box .counter-title::before,
+.theme-dark-orchid .login-title::before,
+.theme-dark-orchid .header-navbar-menu .navbar .navbar-toggler {
+	background-color: #7365db;
+}
+.theme-dark-orchid .switched-mode > ul > li > a.active {
+	background-color: #7365db !important;
+}
+/* light mode icon */
+.theme-dark-orchid .trending-ico .theme-icons{
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-create-wallet.svg);
+}
+.theme-dark-orchid .trending-ico .theme-icons.get-bitcoin-icon {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-get-bitcoins.svg);
+}
+.theme-dark-orchid .trending-ico .theme-icons.use-wallet-icon {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-get-wallet.svg);
+}
+.theme-dark-orchid .trending-ico .theme-icons.digital-money {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-digital-money.svg);
+}
+.theme-dark-orchid .trending-ico .theme-icons.bitcoin-wallet {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-bitcoin-wallet.svg);
+}
+.theme-dark-orchid .trending-ico .theme-icons.crypto-currency {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-crypto-currency.svg);
+}
+.theme-dark-orchid .trending-ico .theme-icons.secure-transactions {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-secure-transactions.svg);
+}
+.theme-dark-orchid .trending-ico .theme-icons.bitcoin-mining {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-bitcoin-mining.svg);
+}
+.theme-dark-orchid .trending-ico .theme-icons.mining-technology {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-mining-technology.svg);
+}
+/* light mode icon */
+/* dark mode icon */
+.theme-dark-orchid.dark-mode .trending-ico .theme-icons{
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-dark-create-wallet.svg);
+}
+.theme-dark-orchid.dark-mode .trending-ico .theme-icons.get-bitcoin-icon {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-dark-get-bitcoins.svg);
+}
+.theme-dark-orchid.dark-mode .trending-ico .theme-icons.use-wallet-icon {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-dark-get-wallet.svg);
+}
+.theme-dark-orchid.dark-mode .trending-ico .theme-icons.digital-money {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-dark-digital-money.svg);
+}
+.theme-dark-orchid.dark-mode .trending-ico .theme-icons.bitcoin-wallet {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-dark-bitcoin-wallet.svg);
+}
+.theme-dark-orchid.dark-mode .trending-ico .theme-icons.crypto-currency {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-dark-crypto-currency.svg);
+}
+.theme-dark-orchid.dark-mode .trending-ico .theme-icons.secure-transactions {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-dark-secure-transactions.svg);
+}
+.theme-dark-orchid.dark-mode .trending-ico .theme-icons.bitcoin-mining {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-dark-bitcoin-mining.svg);
+}
+.theme-dark-orchid.dark-mode .trending-ico .theme-icons.mining-technology {
+    background-image: url(../../../images/icon/theme-dark-orchid/theme-dark-orchid-dark-mining-technology.svg);
+}
+/* dark mode icon */

@@ -7,6 +7,7 @@ const Profile = () => {
             <Head>
                 <title>Profile</title>
             </Head>
+            Profile page
         </AppLayout>
     )
 }

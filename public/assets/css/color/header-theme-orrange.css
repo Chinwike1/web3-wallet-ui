@@ -1,0 +1,114 @@
+@media screen and (max-width: 767px){
+    .header-theme-orrange .header-box,
+    .header-theme-orrange .color-switcher .toggle-button{
+        background-color: #ff784f; 
+        background-image: -webkit-linear-gradient(90deg,#ff784f,#ff5370);
+        background: linear-gradient(90deg,#ff784f,#ff5370);
+    }
+}
+.header-theme-orrange .wallet-top-header,
+.header-theme-orrange .transfer-coin-btn a.active, 
+.header-theme-orrange .transfer-coin-btn a:hover,
+.header-theme-orrange .theme-btn,
+.header-theme-orrange .edit-images .edit-label,
+.header-theme-orrange .wallet-transaction-box .wallet-transaction-ico,
+.header-theme-orrange .pagination-box > ul > li.current,
+.header-theme-orrange .notification-dropdown .notification-footer a,
+.header-theme-orrange .theme-popup .modal-content .modal-body .close {
+    background-color: #ff784f; 
+    background-image: -webkit-linear-gradient(90deg,#ff784f,#ff5370);
+    background: linear-gradient(90deg,#ff784f,#ff5370);
+}
+.header-theme-orrange .theme-btn{
+    border-color: #ff784f;
+}
+.header-theme-orrange .header-logo {
+    background-color: #ff556f;
+}
+.header-theme-orrange .header-nav-menu ul li.active > a, 
+.header-theme-orrange .header-nav-menu ul li a:hover,
+.header-theme-orrange .wallet-balance-box .wallet-balance-amount h3,
+.header-theme-orrange .wallet-transaction-balance h3,
+.header-theme-orrange .wallet-top-header-box.user-top-detail ul li a,
+.header-theme-orrange .wallet-language-box .dropdown-menu li > a,
+.header-theme-orrange .wallet-transaction-balance h3, 
+.header-theme-orrange .wallet-transaction-box .wallet-trx-id .trx-id > span > span,
+.header-theme-orrange .pagination-box > ul > li > a:hover,
+.header-theme-orrange .transfer-coin-btn a,
+.header-theme-orrange .theme-popup .modal-content .wallet-balance-box span > span{
+    color: #ff784f;
+}
+.header-theme-orrange .wallet-balance-area .wallet-balance-box h3{
+    color: #222;
+}
+.header-theme-orrange .header-nav-menu ul li.active{
+    border-left-color: #ff784f;
+}
+.header-theme-orrange .apexcharts-series path {
+    fill: #ff784f;
+}
+.header-theme-orrange .apexcharts-series path{
+    stroke: #da5b35 !important;
+}
+.header-theme-orrange .remove-popuo-btn .remove-btn{
+    background-color: #ff784f; 
+    background-image: -webkit-linear-gradient(90deg,#ff784f,#ff5370);
+    background: linear-gradient(90deg,#ff784f,#ff5370);
+    border: 1px solid #ff784f;
+}
+.header-theme-orrange .highcharts-background {
+    fill: rgb(255 113 85 / 8%);
+}
+.header-theme-orrange .highcharts-series > path:first-child {
+    stroke: #ff784f;
+}
+.header-theme-orrange .highcharts-title {
+    color: #ff784f !important;
+    fill: #ff784f !important;
+}
+.header-theme-orrange .dashboard-chart-range > a.active, 
+.header-theme-orrange .dashboard-chart-range > a:hover {
+    background-color: #ff784f; 
+    background-image: -webkit-linear-gradient(90deg,#ff784f,#ff5370);
+    background: linear-gradient(90deg,#ff784f,#ff5370);
+    color: #fff;
+}
+.header-theme-orrange .wallet-chart #loading {
+    color: #ff784f;
+}
+
+.wallet-transaction-box .wallet-transaction-ico.wallet-Withdrawal {
+    background: #87d682;
+    background: -webkit-linear-gradient(to right, #87d682, #73c06e);
+    background: linear-gradient(to right, #87d682, #73c06e);
+}
+.wallet-transaction-box .wallet-transaction-ico.wallet-sync {
+    background: #7ad9e3;
+    background: -webkit-linear-gradient(to right, #7ad9e3, #5ad2df);
+    background: linear-gradient(to right, #7ad9e3, #5ad2df);
+}
+
+/* dark mode css */
+.dark-mode.header-theme-orrange .header-nav-menu ul li.active{
+    border-color: #ff784f !important;
+}
+.dark-mode.header-theme-orrange .header-nav-menu ul li.active > a, 
+.dark-mode.header-theme-orrange .header-nav-menu ul li a:hover {
+    color: #ff784f !important;
+}
+.dark-mode.header-theme-orrange .wallet-top-header-left .wallet-top-header-box h3,
+.dark-mode.header-theme-orrange .wallet-top-header-box .header-wallet-ico {
+    color: #ff784f !important;   
+}
+.dark-mode.header-theme-orrange .header-nav-menu ul li.active {
+    border-color: #ff784f;   
+}
+.dark-mode.header-theme-orrange .pagination-box > ul > li > a:hover,
+.dark-mode.header-theme-orrange .wallet-transaction-balance h3, 
+.dark-mode.header-theme-orrange .wallet-balance-box .wallet-balance-amount h3 {
+    color: #ff784f !important;
+}
+.dark-mode.header-theme-orrange .wallet-top-header-right .notification-box-area .notification-box .notification-active {
+    background: #ff784f;
+}
+/* dark mode css */

@@ -1,0 +1,115 @@
+@media screen and (max-width: 767px){
+    .theme-dark-green .header-box,
+    .theme-dark-green .color-switcher .toggle-button{
+        background-color: #85ad59;
+    }
+}
+.theme-dark-green .wallet-top-header,
+.theme-dark-green .transfer-coin-btn a.active, 
+.theme-dark-green .transfer-coin-btn a:hover,
+.theme-dark-green .theme-btn,
+.theme-dark-green .edit-images .edit-label,
+.theme-dark-green .notification-dropdown .notification-footer a,
+.theme-dark-green .wallet-transaction-box .wallet-transaction-ico,
+.theme-dark-green .pagination-box > ul > li.current,
+.theme-dark-green .theme-popup .modal-content .modal-body .close {
+    background-color: #85ad59;
+}
+.theme-dark-green .theme-btn{
+    border-color: #85ad59;
+}
+.theme-dark-green .header-logo {
+    background-color: #658a3d;
+}
+.theme-dark-green .header-nav-menu ul li.active > a, 
+.theme-dark-green .header-nav-menu ul li a:hover,
+.theme-dark-green .wallet-balance-box .wallet-balance-amount h3,
+.theme-dark-green .wallet-transaction-balance h3,
+.theme-dark-green .wallet-top-header-box.user-top-detail ul li a,
+.theme-dark-green .wallet-language-box .dropdown-menu li > a,
+.theme-dark-green .wallet-transaction-balance h3, 
+.theme-dark-green .wallet-transaction-box .wallet-trx-id .trx-id > span > span,
+.theme-dark-green .pagination-box > ul > li > a:hover,
+.theme-dark-green .transfer-coin-btn a,
+.theme-dark-green .theme-popup .modal-content .wallet-balance-box span > span{
+    color: #85ad59;
+}
+.theme-dark-green .wallet-balance-area .wallet-balance-box h3{
+    color: #222;
+}
+.theme-dark-green .header-nav-menu ul li.active{
+    border-left-color: #85ad59;
+}
+.theme-dark-green .apexcharts-series path {
+    fill: #85ad59 !important;
+}
+.theme-dark-green .apexcharts-series path{
+    stroke: #658a3d !important;
+}
+.theme-dark-green .remove-popuo-btn .remove-btn{
+    background-color: #85ad59;
+    border: 1px solid #85ad59;
+}
+.theme-dark-green .highcharts-background {
+    fill: rgb(133 173 89 / 8%);
+}
+.theme-dark-green .highcharts-series > path:first-child {
+    stroke: #658a3d;
+}
+.theme-dark-green .highcharts-title {
+    color: #658a3d !important;
+    fill: #658a3d !important;
+}
+.theme-dark-green .dashboard-chart-range > a.active, 
+.theme-dark-green .dashboard-chart-range > a:hover {
+    background-color: #658a3d;
+    color: #fff;
+}
+.theme-dark-green .wallet-chart #loading {
+    color: #658a3d;
+}
+
+/* dark mode css */
+.dark-mode.theme-dark-green .header-nav-menu ul li.active{
+    border-color: #85ad59 !important;
+}
+.dark-mode.theme-dark-green .header-nav-menu ul li.active > a, 
+.dark-mode.theme-dark-green .header-nav-menu ul li a:hover {
+    color: #85ad59 !important;
+}
+.dark-mode.theme-dark-green .wallet-top-header-left .wallet-top-header-box h3,
+.dark-mode.theme-dark-green .wallet-top-header-box .header-wallet-ico {
+    color: #85ad59 !important;   
+}
+.dark-mode.theme-dark-green .header-nav-menu ul li.active {
+    border-color: #85ad59;   
+}
+.dark-mode.theme-dark-green .pagination-box > ul > li > a:hover,
+.dark-mode.theme-dark-green .wallet-transaction-balance h3, 
+.dark-mode.theme-dark-green .wallet-balance-box .wallet-balance-amount h3 {
+    color: #85ad59 !important;
+}
+.dark-mode.theme-dark-green .theme-btn,
+.dark-mode.theme-dark-green .wallet-transaction-box .wallet-transaction-ico,
+.dark-mode.theme-dark-green .wallet-top-header-right .notification-box-area .notification-box .notification-active,
+.dark-mode.theme-dark-green .pagination-box > ul > li.current,
+.dark-mode.theme-dark-green .edit-images .edit-label,
+.dark-mode.theme-dark-green .remove-popuo-btn .remove-btn {
+    background-color: #85ad59 !important;   
+}
+.dark-mode.theme-dark-green .highcharts-title {
+    color: #85ad59 !important;
+    fill: #85ad59 !important;
+}
+.dark-mode.theme-dark-green .dashboard-chart-range > a.active, 
+.dark-mode.theme-dark-green .dashboard-chart-range > a:hover {
+    background-color: #85ad59;
+    color: #ffffff;
+}
+.dark-mode.theme-dark-green .highcharts-series > path:first-child {
+    stroke: #85ad59;
+}
+.dark-mode.theme-dark-green .wallet-chart #loading{
+    color: #85ad59;
+}
+/* dark mode css */
