@@ -40,18 +40,11 @@ const navLinks = [
         url: '/profile',
         icon: <FaUserAlt />,
     },
-    {
-        name: 'Logout',
-        url: '#',
-        icon: <FaSignOutAlt />,
-    },
 ]
 
 const Navigation = ({ user }) => {
     const router = useRouter()
     const { logout } = useAuth()
-
-    const [open, setOpen] = useState(false)
 
     return (
         <div className="header-box">
@@ -64,16 +57,22 @@ const Navigation = ({ user }) => {
             <div className="header-nav-menu">
                 <i className="menu-responsive fas fa-bars" />
                 {/* Navigation links */}
-                <ul className="pl-0">
+                <ul className="p-0">
                     {navLinks.map(link => (
                         <NavLink
                             key={link.name}
                             href={link.url}
                             icon={link.icon}
-                            active={router.pathname === `${link.name}`}>
+                            active={router.pathname === `${link.url}`}>
                             {link.name}
                         </NavLink>
                     ))}
+                    <NavLink
+                        href="#"
+                        icon={<FaSignOutAlt />}
+                        onClick={() => logout()}>
+                        Logout
+                    </NavLink>
                 </ul>
             </div>
         </div>

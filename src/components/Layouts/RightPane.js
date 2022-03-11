@@ -1,10 +1,10 @@
 import StatusBar from './StatusBar'
 
-const RightPane = () => {
+const RightPane = ({ user, children }) => {
     return (
         <div className="wallet-area-right">
-            <StatusBar />
-            <p>right pane content</p>
+            <StatusBar user={user} />
+            {children}
         </div>
     )
 }

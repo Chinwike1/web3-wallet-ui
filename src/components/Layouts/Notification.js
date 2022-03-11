@@ -59,7 +59,7 @@ const Notification = () => {
                     </li>
                 </ul>
                 <div className="notification-footer">
-                    <a href="JavaScript:Void(0)">Read All Notifications</a>
+                    <a href="#">Read All Notifications</a>
                 </div>
             </div>
         </div>
