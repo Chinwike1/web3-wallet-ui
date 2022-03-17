@@ -1,10 +1,13 @@
 import StatusBar from './StatusBar'
 
-const RightPane = ({ user, children }) => {
+const RightPane = ({ user, children, header }) => {
     return (
         <div className="wallet-area-right">
             <StatusBar user={user} />
-            {children}
+            <div className="wallet-box-scroll">
+                <div className="wallet-bradcrumb">{header}</div>
+                {children}
+            </div>
         </div>
     )
 }

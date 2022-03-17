@@ -18,7 +18,9 @@ const AppLayout = ({ header, children }) => {
                     <div className="row">
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <Navigation user={user} />
-                            <RightPane user={user}>{children}</RightPane>
+                            <RightPane user={user} header={header}>
+                                {children}
+                            </RightPane>
                         </div>
                     </div>
                 </div>

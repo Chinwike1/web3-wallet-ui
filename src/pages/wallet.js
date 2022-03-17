@@ -1,12 +1,14 @@
 import AppLayout from '@/components/Layouts/AppLayout'
 import Head from 'next/head'
+import { FaWallet } from 'react-icons/fa'
 
 const Wallet = () => {
     return (
         <AppLayout
             header={
-                <h2 className="font-semibold text-xl text-gray-800 leading-tight">
-                    Wallet
+                <h2>
+                    <FaWallet />
+                    <span>Wallet</span>
                 </h2>
             }>
             <Head>
