@@ -21,7 +21,7 @@ const navLinks = [
         icon: <FaTachometerAlt />,
     },
     {
-        name: 'Wallet',
+        name: 'My Wallet',
         url: '/wallet',
         icon: <FaWallet />,
     },

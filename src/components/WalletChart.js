@@ -17,7 +17,7 @@ const WalletChart = () => {
     ])
 
     return (
-        <div className="wallet-chart mt-5">
+        <div className="wallet-chart mt-3">
             <div id="chart">
                 <div id="timeline-chart">
                     <div style={{ height: '400px' }}>

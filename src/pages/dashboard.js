@@ -2,7 +2,6 @@ import AppLayout from '@/components/Layouts/AppLayout'
 import WalletChart from '@/components/WalletChart'
 import Head from 'next/head'
 import { FaTachometerAlt } from 'react-icons/fa'
-// TODO: convert this component to index.js in pages/dashboard folder
 // TODO: component should reach out to CoinCap
 
 const Dashboard = () => {

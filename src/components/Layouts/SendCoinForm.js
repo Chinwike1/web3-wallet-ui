@@ -4,23 +4,23 @@ import Button from '../Button'
 
 const SendCoinForm = () => {
     const { register, handleSubmit } = useForm()
-    const [crypto, setCrypto] = useState('BTC')
+    const [crypto, setCrypto] = useState('btc')
 
     const handleCrypto = e => setCrypto(e.target.value)
     const onSubmit = data => {
-        // process form info here
+        // process form data here
         console.log(data)
     }
 
     return (
-        <div className="transfer-coin-content-box mt-3 active" id="sent-coin">
+        <div className="transfer-coin-content-box mt-3" id="sent-coin">
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="theme-input-box">
                     <div className="theme-custom-dropdown dropdown">
                         <select
+                            {...register('crypto')}
                             className="dropdown-select theme-input"
-                            onChange={handleCrypto}
-                            {...register}>
+                            onChange={handleCrypto}>
                             <option value="BTC">Bitcoin</option>
                             <option value="eth">Ethereum</option>
                             <option value="ltc">Litecoin</option>
@@ -40,7 +40,7 @@ const SendCoinForm = () => {
                         className="theme-input"
                         type="text"
                         placeholder="1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX"
-                        {...register}
+                        {...register('recepientAddress')}
                     />
                 </div>
                 <div className="theme-input-box amount-box">
@@ -49,7 +49,7 @@ const SendCoinForm = () => {
                         className="theme-input"
                         type="number"
                         placeholder="0.000000"
-                        {...register}
+                        {...register('amountToSend')}
                     />
                     <span className="coin-status">{`/ ${crypto.toUpperCase()}`}</span>
                 </div>

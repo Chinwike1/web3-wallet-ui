@@ -4,32 +4,37 @@ import Head from 'next/head'
 import { FaUser } from 'react-icons/fa'
 import { HiCamera } from 'react-icons/hi'
 import { useForm } from 'react-hook-form'
+import user from '../utils/user'
 
 const Profile = () => {
     const formFields = [
         {
             label: 'First Name',
             type: 'text',
-            placeholder: 'Mithilia',
+            placeholder: user.firstName,
             className: 'theme-input',
+            variableName: 'firstName',
         },
         {
             label: 'Last Name',
             type: 'text',
-            placeholder: 'Mac',
+            placeholder: user.lastName,
             className: 'theme-input',
+            variableName: 'lastName',
         },
         {
             label: 'Email',
             type: 'email',
-            placeholder: 'milithiamac@gmail.com',
+            placeholder: user.email,
             className: 'theme-input',
+            variableName: 'email',
         },
         {
             label: 'Phone',
             type: 'tel',
-            placeholder: '+91 1234 567 890',
+            placeholder: user.telephone,
             className: 'theme-input',
+            variableName: 'phone',
         },
     ]
 
@@ -56,8 +61,8 @@ const Profile = () => {
                         <div className="editprofile-images">
                             <div className="edit-images">
                                 <img
-                                    src="assets/images/profile.jpg"
-                                    alt="Profile"
+                                    src={user.avatarUrl}
+                                    alt="Profile picture"
                                 />
                                 <span className="edit-label d-flex justify-content-center align-items-center">
                                     <HiCamera />
@@ -77,7 +82,9 @@ const Profile = () => {
                                             type={field.type}
                                             placeholder={field.placeholder}
                                             className={field.className}
-                                            {...register}
+                                            {...register(
+                                                `${field.variableName}`,
+                                            )}
                                         />
                                     </div>
                                 ))}

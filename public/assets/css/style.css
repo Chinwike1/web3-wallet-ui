@@ -1102,8 +1102,11 @@ img {
     position: absolute;
     top: 0px;
     left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.wallet-transaction-box .wallet-transaction-ico > i {
+.wallet-transaction-box .wallet-transaction-ico > svg {
     line-height: 40px;
 }
 .wallet-transaction-box .wallet-coin-ico {
@@ -1169,7 +1172,7 @@ img {
 .wallet-box-right .wallet-transaction-box .wallet-trx-id .trx-id {
     margin-top: 0px;
 }
-.wallet-transaction-box .wallet-transaction-ico.wallet-Withdrawal {
+.wallet-transaction-box .wallet-transaction-ico.wallet-withdrawal {
     background-color: #87d682;
 }
 .wallet-transaction-box .wallet-transaction-ico.wallet-sync {
@@ -1228,7 +1231,7 @@ img {
     font-weight: 600;
     margin: 0px 0px 25px;
 }
-.dashboard-title > i {
+.dashboard-title > svg {
     margin-right: 4px;
     vertical-align: middle;
 }
@@ -1339,6 +1342,9 @@ img {
     margin: 0px -10px;
 }
 .wallet-balance-btn .theme-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 12px 8px;
     width: calc(50% - 10px);
     float: left;
@@ -1352,8 +1358,8 @@ img {
     font-weight: 600;
     font-family: 'Lato', sans-serif;
 }
-.wallet-balance-btn .theme-btn > i {
-    margin-right: 2px;
+.wallet-balance-btn .theme-btn > svg {
+    margin-right: 6px;
     font-size: 15px;
 }
 .my-wallet-area {
@@ -1820,11 +1826,11 @@ img {
 .invoice-qr-ammount-box .invoice-qr-box .invoice-payment-url input {
     background-color: #f5f5f5;
     border: 1px solid #f5f5f5;
-    padding: 12px 60px 12px 15px;
+    padding: 12px 15px;
     font-size: 15px;
     width: 100%;
 }
-.invoice-qr-ammount-box .invoice-qr-box .invoice-payment-url > i {
+.invoice-qr-ammount-box .invoice-qr-box .invoice-payment-url > svg {
     font-size: 18px;
     color: #666;
     position: absolute;
@@ -1834,7 +1840,6 @@ img {
     line-height: 30px;
     right: 0px;
     border-left: 2px solid #ccc;
-    padding: 0px 14px;
     border-radius: 2px;
     cursor: pointer;
 }
@@ -1940,7 +1945,7 @@ img {
 .theme-input-box .theme-input {
     width: 100%;
     background-color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid rgb(209, 206, 206);
     box-shadow: 0px 0px 8px #eee;
     padding: 15px 15px;
     outline: 0;

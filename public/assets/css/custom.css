@@ -1,0 +1,19 @@
+.receive-modal {
+    height: 90vh;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.wallet-transaction {
+    margin: 0px 30px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .wallet-transaction-box .wallet-transaction-balance {
+        float: right !important;
+        display: inherit !important;
+        width: auto !important;
+    }
+}

@@ -13,7 +13,7 @@ import ReceiveCoinForm from '@/components/Layouts/ReceiveCoinForm'
 import TransferCoinForm from '@/components/Layouts/TransferCoinForm'
 
 const TransferCoin = () => {
-    const [currentView, setCurrentView] = useState('receive-coin')
+    const [currentView, setCurrentView] = useState('send-coin')
     return (
         <AppLayout
             header={
@@ -33,7 +33,9 @@ const TransferCoin = () => {
                                 <a
                                     href="#"
                                     className={
-                                        currentView === 'send-coin' && 'active'
+                                        currentView === 'send-coin'
+                                            ? 'active'
+                                            : undefined
                                     }
                                     onClick={() => setCurrentView('send-coin')}>
                                     <FaArrowAltCircleUp /> Send
@@ -41,8 +43,9 @@ const TransferCoin = () => {
                                 <a
                                     href="#"
                                     className={
-                                        currentView === 'receive-coin' &&
-                                        'active'
+                                        currentView === 'receive-coin'
+                                            ? 'active'
+                                            : undefined
                                     }
                                     onClick={() =>
                                         setCurrentView('receive-coin')
@@ -53,15 +56,17 @@ const TransferCoin = () => {
                                 <a
                                     href="#"
                                     className={
-                                        currentView === 'transfer-coin' &&
-                                        'active'
+                                        currentView === 'transfer-coin'
+                                            ? 'active'
+                                            : undefined
                                     }
                                     onClick={() =>
                                         setCurrentView('transfer-coin')
                                     }>
                                     <FaExchangeAlt />
-                                    Transfer Coin
+                                    Transfer
                                 </a>
+                                {/* TODO: use framer motion to add exit animations for these 3 components */}
                                 <div className="transfer-coin-content">
                                     {currentView === 'send-coin' && (
                                         <SendCoinForm />
@@ -75,9 +80,9 @@ const TransferCoin = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-5">
-                            <CoinBalance />
-                        </div>
+                    </div>
+                    <div className="col-xl-5">
+                        <CoinBalance />
                     </div>
                 </div>
             </div>
