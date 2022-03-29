@@ -3,7 +3,6 @@ import { QueryClient, QueryClientProvider } from 'react-query'
 
 // stylesheets
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../../public/assets/css/custom.css'
 
 // Initiate react-query client
 const queryClient = new QueryClient()

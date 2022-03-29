@@ -7,11 +7,23 @@ import {
 } from 'react-icons/fa'
 import user from '../../utils/user'
 
-const TransactionHistory = ({ note }) => {
+const TransactionHistory = ({
+    limit,
+    pagination = true,
+    hasShadowParent = false,
+}) => {
+    const calculateHourDifference = time => {
+        let hours = Math.abs(time - Date.now()) / 36e5
+        return <>{`${hours.toFixed(0)} Hour${hours > 1 ? 's' : ''} before`}</>
+    }
+
     return (
         <>
-            <div className="wallet-transaction clearfix">
-                {user.transactions.map((trx, index) => (
+            <div
+                className={
+                    hasShadowParent ? '' : 'wallet-transaction clearfix'
+                }>
+                {user.transactions.slice(0, limit).map((trx, index) => (
                     <div
                         key={index}
                         className="wallet-transaction-box clearfix">
@@ -43,10 +55,10 @@ const TransactionHistory = ({ note }) => {
                             <div className="coin-wallet-date text-center">
                                 <span>Date</span>
                                 <h3>
-                                    <span>{trx.timestamp}</span>
+                                    {calculateHourDifference(trx.timestamp)}
                                 </h3>
                             </div>
-                            <div className="wallet-transaction-balance text-right">
+                            <div className="wallet-transaction-balance float-right">
                                 <span>Amount</span>
                                 <h3>
                                     {trx.amount}{' '}
@@ -60,7 +72,7 @@ const TransactionHistory = ({ note }) => {
                                     <span>TRX:</span>
                                     {trx.transactionId}
                                 </span>
-                                <a href="" target="_blank">
+                                <a href="#" target="_blank">
                                     <FaExternalLinkAlt />
                                 </a>
                             </p>
@@ -68,24 +80,26 @@ const TransactionHistory = ({ note }) => {
                     </div>
                 ))}
             </div>
-            <div className="pagination-box text-center">
-                <ul className="clearfix">
-                    <li className="current">
-                        <span>1</span>
-                    </li>
-                    <li>
-                        <a href="">2</a>
-                    </li>
-                    <li>
-                        <a href="">3</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Next <FaLongArrowAltRight />
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            {pagination && (
+                <div className="pagination-box text-center">
+                    <ul className="clearfix">
+                        <li className="current">
+                            <span>1</span>
+                        </li>
+                        <li>
+                            <a href="">2</a>
+                        </li>
+                        <li>
+                            <a href="">3</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Next <FaLongArrowAltRight />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            )}
         </>
     )
 }

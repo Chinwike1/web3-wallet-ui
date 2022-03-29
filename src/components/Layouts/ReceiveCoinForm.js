@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
-import { FaCopy } from 'react-icons/fa'
+import { FaCopy, FaCheckCircle } from 'react-icons/fa'
 import Button from '../Button'
 
 const ReceiveCoinForm = () => {
@@ -11,9 +11,18 @@ const ReceiveCoinForm = () => {
     }
 
     const [crypto, setCrypto] = useState('btc')
+    const [copied, setCopied] = useState(false)
     const { register, handleSubmit } = useForm()
 
     const handleCrypto = e => setCrypto(e.target.value)
+    const handleClipboardCopy = () => {
+        setCopied(true)
+        navigator.clipboard.writeText(crypto.walletAddress)
+
+        setTimeout(() => {
+            setCopied(false)
+        }, 5000)
+    }
     const onSubmit = data => {
         // process form info here
         console.log(data)
@@ -83,12 +92,14 @@ const ReceiveCoinForm = () => {
                                 />
                                 <FaCopy
                                     id="input-copy"
-                                    onClick={() => {
-                                        navigator.clipboard.writeText(
-                                            user.walletAddress,
-                                        )
-                                    }}
+                                    onClick={handleClipboardCopy}
                                 />
+                                {copied && (
+                                    <p className="text-center text-success">
+                                        <span>Copied to clipboard</span>
+                                        <FaCheckCircle className="ml-2" />
+                                    </p>
+                                )}
                             </div>
                         </div>
                     </div>

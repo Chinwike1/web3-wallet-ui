@@ -40,6 +40,7 @@ const SendCoinForm = () => {
                         className="theme-input"
                         type="text"
                         placeholder="1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX"
+                        required
                         {...register('recepientAddress')}
                     />
                 </div>
@@ -49,6 +50,7 @@ const SendCoinForm = () => {
                         className="theme-input"
                         type="number"
                         placeholder="0.000000"
+                        required
                         {...register('amountToSend')}
                     />
                     <span className="coin-status">{`/ ${crypto.toUpperCase()}`}</span>

@@ -1,7 +1,7 @@
 import StatusBarLeft from './StatusBarLeft'
 import StatusBarRight from './StatusBarRight'
 
-const StatusBar = ({ user }) => {
+const StatusBar = () => {
     return (
         <div className="wallet-top-header clearfix">
             <StatusBarLeft />

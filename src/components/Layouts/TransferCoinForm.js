@@ -51,6 +51,7 @@ const TransferCoinForm = () => {
                         className="theme-input"
                         type="number"
                         placeholder="0.000000"
+                        required
                         {...register('amountToSend')}
                     />
                     <span className="coin-status">{`/ ${crypto.toUpperCase()}`}</span>

@@ -10,6 +10,107 @@ body {
     margin: 0px 30px;
 }
 
+#loading {
+    animation: rotating 2s linear infinite;
+}
+
+.wallet-bradcrumb .transaction-coin-filter {
+    /* padding: 0; */
+    right: 0;
+    width: 200px;
+}
+
+.notification-wrapper {
+    position: relative;
+}
+
+.notification-wrapper .notification-ico {
+    position: absolute;
+    left: 15px;
+}
+
+.notification-ico {
+    font-size: 22px;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+.notification-success .notification-ico {
+    color: #4caf50 !important;
+}
+.notification-pending .notification-ico {
+    color: #ffc107 !important;
+}
+.notification-cancel .notification-ico {
+    color: #f05050 !important;
+}
+
+.dropdown-item {
+    padding: 0.8rem;
+}
+
+.notification-message {
+    font-size: 16px;
+    font-weight: lighter;
+    padding-left: 40px;
+}
+
+.notification-message h3 {
+    font-size: 15px;
+    margin: 0px 0px 5px;
+}
+
+.notification-message h4 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    color: #aaaaaa;
+}
+
+.notification-footer a {
+    background-color: #001c71;
+    display: block;
+    font-size: 15px;
+    padding: 12px 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.dropdown button:focus {
+    outline: none;
+}
+
+.dropdown-item {
+    white-space: normal !important;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+.dropdown-item-wrapper {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.profile-dropdown span {
+    margin-left: 0.5rem;
+}
+
+@keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
 @media screen and (max-width: 1199px) and (min-width: 992px) {
     .wallet-transaction-box .wallet-transaction-balance {
         float: right !important;

@@ -1,9 +1,5 @@
-import ApplicationLogo from '@/components/ApplicationLogo'
-import Dropdown from '@/components/Dropdown'
 import NavLink from '@/components/NavLink'
-import { DropdownButton } from '@/components/DropdownLink'
 import { useAuth } from '@/hooks/auth'
-import { useState } from 'react'
 import {
     FaTachometerAlt,
     FaWallet,
@@ -11,8 +7,11 @@ import {
     FaHistory,
     FaUserAlt,
     FaSignOutAlt,
+    FaBars,
 } from 'react-icons/fa'
 import { useRouter } from 'next/router'
+import ApplicationLogo from '../ApplicationLogo'
+import { useState } from 'react'
 
 const navLinks = [
     {
@@ -42,22 +41,23 @@ const navLinks = [
     },
 ]
 
-const Navigation = ({ user }) => {
+const Navigation = () => {
     const router = useRouter()
     const { logout } = useAuth()
 
+    const [isNavOpen, setIsNavOpen] = useState(false)
+
     return (
-        <div className="header-box">
-            {/* logo: transform to its own component */}
-            <div className="header-logo">
-                <a href="dashboard.html">
-                    <img src="assets/images/logo.png" alt="Logo" />
-                </a>
-            </div>
+        <nav className="header-box">
+            <ApplicationLogo />
             <div className="header-nav-menu">
-                <i className="menu-responsive fas fa-bars" />
+                <FaBars
+                    className="menu-responsive"
+                    role="button"
+                    onClick={() => setIsNavOpen(!isNavOpen)}
+                />
                 {/* Navigation links */}
-                <ul className="p-0">
+                <ul style={{ display: isNavOpen && 'block' }} className="p-0">
                     {navLinks.map(link => (
                         <NavLink
                             key={link.name}
@@ -75,7 +75,7 @@ const Navigation = ({ user }) => {
                     </NavLink>
                 </ul>
             </div>
-        </div>
+        </nav>
     )
 }
 

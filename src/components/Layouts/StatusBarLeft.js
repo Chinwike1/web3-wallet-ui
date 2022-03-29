@@ -1,22 +1,29 @@
+import user from '@/utils/user'
+import { FaWallet, FaBitcoin } from 'react-icons/fa'
+
 const StatusBarLeft = () => {
     return (
         <div className="wallet-top-header-left">
             <div className="wallet-top-header-box">
-                <div className="header-wallet-ico" style={{ color: '#87d682' }}>
-                    <i className="fas fa-wallet" />
+                <div className="header-wallet-ico">
+                    <FaWallet />
                 </div>
                 <span>Total Balance</span>
-                <h3 style={{ color: '#87d682' }}>
-                    <span>657.0378348945</span> USD
+                <h3>
+                    <span style={{ color: '#87d682' }}>
+                        {`${user.totatBalanceUSD} USD`}
+                    </span>
                 </h3>
             </div>
             <div className="wallet-top-header-box">
-                <div className="header-wallet-ico" style={{ color: '#7ad9e3' }}>
-                    <i className="fab fa-bitcoin" />
+                <div className="header-wallet-ico">
+                    <FaBitcoin />
                 </div>
                 <span>Pending Balance</span>
-                <h3 style={{ color: '#7ad9e3' }}>
-                    <span>87.749575978</span> BTC
+                <h3>
+                    <span style={{ color: '#87d682' }}>
+                        {`${user.pendingBalanceBTC} BTC`}
+                    </span>
                 </h3>
             </div>
         </div>

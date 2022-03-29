@@ -1,3 +1,14 @@
+import user from '@/utils/user'
+import { Dropdown } from 'react-bootstrap'
+import {
+    FaTachometerAlt,
+    FaWallet,
+    FaCoins,
+    FaHistory,
+    FaUserAlt,
+    FaSignOutAlt,
+} from 'react-icons/fa'
+
 const UserDetail = () => {
     return (
         <div className="wallet-top-header-box user-top-detail">
@@ -6,7 +17,41 @@ const UserDetail = () => {
             </div>
             <span>Welcome Back</span>
             <h3>
-                Mithila Mac <i className="fas fa-chevron-down" />
+                <Dropdown>
+                    <Dropdown.Toggle
+                        style={{
+                            background: 'transparent',
+                            border: 0,
+                            padding: 0,
+                        }}>
+                        {user.firstName + ' ' + user.lastName}
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu className="profile-dropdown">
+                        <Dropdown.Item href="/dashboard">
+                            <FaTachometerAlt /> <span>Dashboard</span>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="/profile">
+                            <FaUserAlt />
+                            <span>Profile</span>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="/wallet">
+                            <FaWallet />
+                            <span>My Wallet</span>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="/transfer-coin">
+                            <FaCoins />
+                            <span>Transfer Coin</span>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="/transaction">
+                            <FaHistory />
+                            <span>Transaction</span>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#">
+                            <FaSignOutAlt />
+                            <span>Logout</span>
+                        </Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
             </h3>
             <ul className="profile-dropdown">
                 <li>

@@ -4,6 +4,8 @@ const user = {
     email: 'johndoe@gmail.com',
     telephone: '+29282393',
     avatarUrl: 'assets/images/profile.jpg',
+    totatBalanceUSD: 657.0378348945,
+    pendingBalanceBTC: 87.749575978,
     crypto: [
         {
             name: 'Bitcoin',
@@ -46,7 +48,7 @@ const user = {
         {
             type: 'deposit',
             crypto: { name: 'Bitcoin', notation: 'btc' },
-            timestamp: Date.now(),
+            timestamp: new Date('March 26, 2022 11:13:00'),
             amount: '405.34',
             transactionId:
                 '7604a0c2f63385acfe6f817729a86430d9a98825b0820bd92494937d052f5ae4',
@@ -54,7 +56,7 @@ const user = {
         {
             type: 'withdrawal',
             crypto: { name: 'Litecoin', notation: 'ltc' },
-            timestamp: Date.now(),
+            timestamp: new Date('March 26, 2022 11:13:00'),
             amount: '405.34',
             transactionId:
                 '7604a0c2f63385acfe6f817729a86430d9a98825b0820bd92494937d052f5ae4',
@@ -62,7 +64,7 @@ const user = {
         {
             type: 'transfer',
             crypto: { name: 'Ethereum', notation: 'eth' },
-            timestamp: Date.now(),
+            timestamp: new Date('March 26, 2022 11:13:00'),
             amount: '405.34',
             transactionId:
                 '7604a0c2f63385acfe6f817729a86430d9a98825b0820bd92494937d052f5ae4',
@@ -71,7 +73,7 @@ const user = {
         {
             type: 'deposit',
             crypto: { name: 'Bitcoin', notation: 'btc' },
-            timestamp: Date.now(),
+            timestamp: new Date('March 26, 2022 11:13:00'),
             amount: '405.34',
             transactionId:
                 '7604a0c2f63385acfe6f817729a86430d9a98825b0820bd92494937d052f5ae4',
@@ -80,7 +82,7 @@ const user = {
         {
             type: 'transfer',
             crypto: { name: 'Bitcoin', notation: 'btc' },
-            timestamp: Date.now(),
+            timestamp: new Date('March 26, 2022 11:13:00'),
             amount: '405.34',
             transactionId:
                 '7604a0c2f63385acfe6f817729a86430d9a98825b0820bd92494937d052f5ae4',
@@ -89,7 +91,7 @@ const user = {
         {
             type: 'deposit',
             crypto: { name: 'Bitcoin', notation: 'btc' },
-            timestamp: Date.now(),
+            timestamp: new Date('March 26, 2022 11:13:00'),
             amount: '405.34',
             transactionId:
                 '7604a0c2f63385acfe6f817729a86430d9a98825b0820bd92494937d052f5ae4',
@@ -98,7 +100,7 @@ const user = {
         {
             type: 'withdrawal',
             crypto: { name: 'Bitcoin', notation: 'btc' },
-            timestamp: Date.now(),
+            timestamp: new Date('March 26, 2022 11:13:00'),
             amount: '405.34',
             transactionId:
                 '7604a0c2f63385acfe6f817729a86430d9a98825b0820bd92494937d052f5ae4',

@@ -1,10 +1,25 @@
+import { useState } from 'react'
 import { Modal } from 'react-bootstrap'
-import { FaTimes, FaExclamationCircle, FaCopy } from 'react-icons/fa'
+import {
+    FaTimes,
+    FaExclamationCircle,
+    FaCopy,
+    FaCheckCircle,
+} from 'react-icons/fa'
 
 const ReceiveModal = ({ isOpen, hideModal, user, currentCrypto }) => {
+    const [copied, setCopied] = useState(false)
     // retrieve object of current crypto from user object
     const crypto = user.crypto.find(c => c.notation === currentCrypto)
 
+    const handleClipboardCopy = () => {
+        setCopied(true)
+        navigator.clipboard.writeText(crypto.walletAddress)
+
+        setTimeout(() => {
+            setCopied(false)
+        }, 5000)
+    }
     return (
         <Modal
             show={isOpen}
@@ -64,12 +79,16 @@ const ReceiveModal = ({ isOpen, hideModal, user, currentCrypto }) => {
                                             />
                                             <FaCopy
                                                 id="input-copy"
-                                                onClick={() => {
-                                                    navigator.clipboard.writeText(
-                                                        crypto.walletAddress,
-                                                    )
-                                                }}
+                                                onClick={handleClipboardCopy}
                                             />
+                                            {copied && (
+                                                <p className="text-center text-success">
+                                                    <span>
+                                                        Copied to clipboard
+                                                    </span>
+                                                    <FaCheckCircle className="ml-2" />
+                                                </p>
+                                            )}
                                         </div>
                                     </div>
                                 </div>

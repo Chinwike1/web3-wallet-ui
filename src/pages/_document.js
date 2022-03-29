@@ -16,6 +16,7 @@ class MyDocument extends Document {
                     />
                     <link rel="stylesheet" href="assets/css/style.css" />
                     <link rel="stylesheet" href="assets/css/responsive.css" />
+                    <link rel="stylesheet" href="assets/css/custom.css" />
                 </Head>
                 <body className="antialiased">
                     <Main />
