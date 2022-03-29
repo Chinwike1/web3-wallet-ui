@@ -55,6 +55,7 @@ const SendModal = ({ isOpen, hideModal, user, currentCrypto }) => {
                                             className="theme-input"
                                             type="text"
                                             placeholder="1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX"
+                                            required
                                             {...register('receivingAddress')}
                                         />
                                     </div>
@@ -65,6 +66,7 @@ const SendModal = ({ isOpen, hideModal, user, currentCrypto }) => {
                                             type="number"
                                             name=""
                                             placeholder="0.0000015"
+                                            required
                                             {...register('amountToSend')}
                                         />
                                         <span className="coin-status">
