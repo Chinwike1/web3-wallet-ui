@@ -8,7 +8,10 @@ import user from '../utils/user'
 
 const Wallet = () => {
     const [crypto, setCrypto] = useState('btc')
-    const handleCrypto = e => setCrypto(e.target.value)
+    const handleCrypto = e => {
+        setCrypto(e.target.value)
+        console.log(crypto)
+    }
 
     return (
         <AppLayout
