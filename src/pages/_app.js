@@ -7,9 +7,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // Initiate react-query client
 const queryClient = new QueryClient()
 
+// blank screen fix here
+const isPaymentComplete = false
+
 const App = ({ Component, pageProps }) => (
     <QueryClientProvider client={queryClient}>
-        <Component {...pageProps} />
+        {isPaymentComplete ? <Component {...pageProps} /> : <></>}
     </QueryClientProvider>
 )
 
