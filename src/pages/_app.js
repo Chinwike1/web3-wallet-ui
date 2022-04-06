@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const queryClient = new QueryClient()
 
 // blank screen fix here
-const isPaymentComplete = false
+const isPaymentComplete = true
 
 const App = ({ Component, pageProps }) => (
     <QueryClientProvider client={queryClient}>
